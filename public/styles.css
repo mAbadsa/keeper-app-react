@@ -9,7 +9,10 @@ html {
 body {
   background: #eee;
   padding: 0 16px;
+  background-color: #87c70f;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
+
 
 header {
   background-color: #f5ba13;
@@ -57,14 +60,16 @@ footer p {
 
 .note button {
   position: relative;
+  background-color: transparent;
   float: right;
   margin-right: 10px;
   color: #f5ba13;
   border: none;
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
   outline: none;
+  transition: 0.2s;
 }
 
 form.create-note {
